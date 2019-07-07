@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AfterRegistrationActivity">
+    tools:context=".AfterRegistrationActivity"
+    android:background="@drawable/step0002">
 
     <ScrollView
         android:layout_width="match_parent"

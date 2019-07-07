@@ -14,6 +14,8 @@
     <string name="verify_password">Verify Password</string>
     <string name="account_question">Don\'t have an account?</string>
     <string name="calories_remaining">Calories Remaining</string>
+    <string name="textview">TextView</string>
+    <string name="carbs">Carbs</string>
 
     <string-array name="my_foods">
         <item>Pizza</item>

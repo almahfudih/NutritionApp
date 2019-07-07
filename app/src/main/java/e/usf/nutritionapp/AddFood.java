@@ -91,11 +91,14 @@ public class AddFood extends AppCompatActivity {
                 servingAmount = Integer.parseInt(newServings);
 
 
-
-                foodProtein.setText(String.valueOf(proteinValue * servingAmount) + "g");
-                foodCarbs.setText(String.valueOf(carbsValue * servingAmount) + "g");
-                foodCalories.setText(String.valueOf(caloriesValue * servingAmount) + "kcal");
-                foodFat.setText(String.valueOf(fatValue * servingAmount) + "g");
+                foodProtein.setText(String.format("%.1f  g", proteinValue * servingAmount));
+                //foodProtein.setText(String.valueOf(proteinValue * servingAmount) + "g");
+                foodCarbs.setText(String.format("%.1f  g", carbsValue * servingAmount));
+                //foodCarbs.setText(String.valueOf(carbsValue * servingAmount) + "g");
+                foodCalories.setText(String.format("%.1f  kcal",caloriesValue * servingAmount));
+               // foodCalories.setText(String.valueOf(caloriesValue * servingAmount) + "kcal");
+                foodFat.setText(String.format("%.1f  g",fatValue * servingAmount));
+                //foodFat.setText(String.valueOf(fatValue * servingAmount) + "g");
             }
 
             @Override

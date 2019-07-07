@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" 
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/step0002">
 
     <LinearLayout
         android:id="@+id/calories_remaining"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/text_border">>
 
         <TextView
             android:layout_width="match_parent"
@@ -170,24 +172,22 @@
             android:orientation="horizontal"
             android:paddingBottom="20dp">
 
-            <TextView
-                android:layout_width="160dp"
-                android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:paddingLeft="10dp"
-                android:paddingTop="10dp"
-                android:text="Add Meal"
-                android:textSize="23sp"
-                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/add_meal_button"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="70dp"
+                android:layout_marginTop="10dp"
                 android:drawingCacheQuality="auto"
                 android:gravity="center"
                 android:scrollbarAlwaysDrawHorizontalTrack="true"
-                android:scrollbarAlwaysDrawVerticalTrack="false" />
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:hint="Add Meal"
+                android:textColorHint="@color/cardview_light_background"
+                android:textSize="20dp"
+                android:background="@drawable/btn_shape"/>
 
         </LinearLayout>
 

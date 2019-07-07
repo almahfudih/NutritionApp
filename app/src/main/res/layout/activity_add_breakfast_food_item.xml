@@ -5,7 +5,8 @@
     android:id="@+id/activity_add_breakfast_food_item"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="e.usf.nutritionapp.AddBreakfastFoodItemActivity">
+    tools:context="e.usf.nutritionapp.AddBreakfastFoodItemActivity"
+    android:background="@drawable/step0002">
 
     <ListView
         android:id="@+id/list_food"

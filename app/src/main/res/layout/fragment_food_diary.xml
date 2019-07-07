@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/step0002">
 
     <LinearLayout
         android:id="@+id/remaining_calories"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingBottom="20dp">
+        android:paddingBottom="20dp"
+        android:background="@drawable/text_border">
 
         <TextView
             android:layout_width="match_parent"
@@ -171,12 +174,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Breakfast"
-            android:textSize="23dp" />
+            android:hint="Breakfast"
+            android:textSize="23dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:background="@drawable/btn_shape"/>
 
         <TextView
             android:id="@+id/add_food_breakfast"
-            style="@style/add_food" />
+            style="@style/add_food"
+            android:drawableLeft="@drawable/ic_add_black_24dp"/>
+
 
     </LinearLayout>
 
@@ -194,12 +201,17 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lunch"
-            android:textSize="23dp" />
+            android:hint="Lunch"
+            android:textSize="23dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:background="@drawable/btn_shape"/>
+
 
         <TextView
             android:id="@+id/add_food_lunch"
-            style="@style/add_food" />
+            style="@style/add_food"
+            android:drawableLeft="@drawable/ic_add_black_24dp"/>
+
 
 
     </LinearLayout>
@@ -218,12 +230,14 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Dinner"
-            android:textSize="23dp" />
-
+            android:hint="Dinner"
+            android:textSize="23dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:background="@drawable/btn_shape"/>
         <TextView
             android:id="@+id/add_food_dinner"
-            style="@style/add_food" />
+            style="@style/add_food"
+            android:drawableLeft="@drawable/ic_add_black_24dp"/>
 
 
     </LinearLayout>
@@ -242,12 +256,15 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Snack"
-            android:textSize="23dp" />
-
+            android:hint="Snack"
+            android:textSize="23dp"
+            android:textColorHint="@color/cardview_light_background"
+            android:background="@drawable/btn_shape"/>
         <TextView
             android:id="@+id/add_food_snack"
-            style="@style/add_food" />
+            style="@style/add_food"
+            android:drawableLeft="@drawable/ic_add_black_24dp"/>
+
 
 
     </LinearLayout>

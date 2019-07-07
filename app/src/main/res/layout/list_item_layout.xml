@@ -5,7 +5,8 @@
     android:textSize="20sp"
     android:textColor="@color/colorPrimaryDark"
     android:textAlignment="center"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/step0002">
 
 
 </TextView>
